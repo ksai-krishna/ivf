@@ -1,0 +1,1318 @@
+nohup: ignoring input
+WARNING:tensorflow:From train_image_classifier.py:386: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0224 14:10:38.912019 140078607413888 module_wrapper.py:139] From train_image_classifier.py:386: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+WARNING:tensorflow:From train_image_classifier.py:386: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0224 14:10:38.912235 140078607413888 module_wrapper.py:139] From train_image_classifier.py:386: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+WARNING:tensorflow:From train_image_classifier.py:400: create_global_step (from tf_slim.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.create_global_step
+W0224 14:10:38.913139 140078607413888 deprecation.py:323] From train_image_classifier.py:400: create_global_step (from tf_slim.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.create_global_step
+WARNING:tensorflow:From /home/ksaikrishna5601/AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/datasets/embryo.py:75: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+W0224 14:10:38.917392 140078607413888 module_wrapper.py:139] From /home/ksaikrishna5601/AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/datasets/embryo.py:75: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+WARNING:tensorflow:From /home/ksaikrishna5601/AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/datasets/dataset_utils.py:113: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+W0224 14:10:38.918065 140078607413888 module_wrapper.py:139] From /home/ksaikrishna5601/AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/datasets/dataset_utils.py:113: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+WARNING:tensorflow:From /home/ksaikrishna5601/AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/datasets/dataset_utils.py:127: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+W0224 14:10:38.918231 140078607413888 module_wrapper.py:139] From /home/ksaikrishna5601/AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/datasets/dataset_utils.py:127: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+WARNING:tensorflow:From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tf_slim/data/parallel_reader.py:249: string_input_producer (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensor_slices(string_tensor).shuffle(tf.shape(input_tensor, out_type=tf.int64)[0]).repeat(num_epochs)`. If `shuffle=False`, omit the `.shuffle(...)`.
+W0224 14:10:38.920953 140078607413888 deprecation.py:323] From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tf_slim/data/parallel_reader.py:249: string_input_producer (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensor_slices(string_tensor).shuffle(tf.shape(input_tensor, out_type=tf.int64)[0]).repeat(num_epochs)`. If `shuffle=False`, omit the `.shuffle(...)`.
+WARNING:tensorflow:From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tensorflow_core/python/training/input.py:277: input_producer (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensor_slices(input_tensor).shuffle(tf.shape(input_tensor, out_type=tf.int64)[0]).repeat(num_epochs)`. If `shuffle=False`, omit the `.shuffle(...)`.
+W0224 14:10:38.924472 140078607413888 deprecation.py:323] From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tensorflow_core/python/training/input.py:277: input_producer (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensor_slices(input_tensor).shuffle(tf.shape(input_tensor, out_type=tf.int64)[0]).repeat(num_epochs)`. If `shuffle=False`, omit the `.shuffle(...)`.
+WARNING:tensorflow:From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tensorflow_core/python/training/input.py:189: limit_epochs (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensors(tensor).repeat(num_epochs)`.
+W0224 14:10:38.925113 140078607413888 deprecation.py:323] From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tensorflow_core/python/training/input.py:189: limit_epochs (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensors(tensor).repeat(num_epochs)`.
+WARNING:tensorflow:From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tensorflow_core/python/training/input.py:198: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+W0224 14:10:38.926255 140078607413888 deprecation.py:323] From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tensorflow_core/python/training/input.py:198: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+WARNING:tensorflow:From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tensorflow_core/python/training/input.py:198: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+W0224 14:10:38.927000 140078607413888 deprecation.py:323] From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tensorflow_core/python/training/input.py:198: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+WARNING:tensorflow:From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tf_slim/data/parallel_reader.py:98: TFRecordReader.__init__ (from tensorflow.python.ops.io_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.TFRecordDataset`.
+W0224 14:10:38.932314 140078607413888 deprecation.py:323] From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tf_slim/data/parallel_reader.py:98: TFRecordReader.__init__ (from tensorflow.python.ops.io_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.TFRecordDataset`.
+WARNING:tensorflow:From /home/ksaikrishna5601/AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/preprocessing/inception_preprocessing.py:195: The name tf.summary.image is deprecated. Please use tf.compat.v1.summary.image instead.
+
+W0224 14:10:39.001451 140078607413888 module_wrapper.py:139] From /home/ksaikrishna5601/AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/preprocessing/inception_preprocessing.py:195: The name tf.summary.image is deprecated. Please use tf.compat.v1.summary.image instead.
+
+WARNING:tensorflow:From /home/ksaikrishna5601/AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/preprocessing/inception_preprocessing.py:148: sample_distorted_bounding_box (from tensorflow.python.ops.image_ops_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+`seed2` arg is deprecated.Use sample_distorted_bounding_box_v2 instead.
+W0224 14:10:39.003072 140078607413888 deprecation.py:323] From /home/ksaikrishna5601/AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/preprocessing/inception_preprocessing.py:148: sample_distorted_bounding_box (from tensorflow.python.ops.image_ops_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+`seed2` arg is deprecated.Use sample_distorted_bounding_box_v2 instead.
+WARNING:tensorflow:From /home/ksaikrishna5601/AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/preprocessing/inception_preprocessing.py:38: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+W0224 14:10:39.006801 140078607413888 module_wrapper.py:139] From /home/ksaikrishna5601/AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/preprocessing/inception_preprocessing.py:38: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/ksaikrishna5601/AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/preprocessing/inception_preprocessing.py:215: The name tf.image.resize_images is deprecated. Please use tf.image.resize instead.
+
+W0224 14:10:39.009639 140078607413888 module_wrapper.py:139] From /home/ksaikrishna5601/AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/preprocessing/inception_preprocessing.py:215: The name tf.image.resize_images is deprecated. Please use tf.image.resize instead.
+
+WARNING:tensorflow:From train_image_classifier.py:445: batch (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.batch(batch_size)` (or `padded_batch(...)` if `dynamic_pad=True`).
+W0224 14:10:39.064666 140078607413888 deprecation.py:323] From train_image_classifier.py:445: batch (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.batch(batch_size)` (or `padded_batch(...)` if `dynamic_pad=True`).
+WARNING:tensorflow:From train_image_classifier.py:473: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+W0224 14:10:39.076896 140078607413888 module_wrapper.py:139] From train_image_classifier.py:473: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From train_image_classifier.py:473: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+W0224 14:10:39.077141 140078607413888 module_wrapper.py:139] From train_image_classifier.py:473: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/ksaikrishna5601/AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/deployment/model_deploy.py:192: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0224 14:10:39.077383 140078607413888 module_wrapper.py:139] From /home/ksaikrishna5601/AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/deployment/model_deploy.py:192: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/ksaikrishna5601/AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/deployment/model_deploy.py:192: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+W0224 14:10:39.077465 140078607413888 module_wrapper.py:139] From /home/ksaikrishna5601/AI-ML-Project-Embryo-Analysis-to-Improve-Success-Rate-of-IVF/scripts/slim/deployment/model_deploy.py:192: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tf_slim/layers/layers.py:1089: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+W0224 14:10:39.079339 140078607413888 deprecation.py:323] From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tf_slim/layers/layers.py:1089: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From train_image_classifier.py:467: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+W0224 14:10:40.714724 140078607413888 module_wrapper.py:139] From train_image_classifier.py:467: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+WARNING:tensorflow:From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tensorflow_core/python/ops/losses/losses_impl.py:121: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0224 14:10:40.735788 140078607413888 deprecation.py:323] From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tensorflow_core/python/ops/losses/losses_impl.py:121: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From train_image_classifier.py:485: The name tf.summary.histogram is deprecated. Please use tf.compat.v1.summary.histogram instead.
+
+W0224 14:10:40.742356 140078607413888 module_wrapper.py:139] From train_image_classifier.py:485: The name tf.summary.histogram is deprecated. Please use tf.compat.v1.summary.histogram instead.
+
+WARNING:tensorflow:From train_image_classifier.py:486: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+W0224 14:10:40.743350 140078607413888 module_wrapper.py:139] From train_image_classifier.py:486: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+WARNING:tensorflow:From train_image_classifier.py:243: The name tf.train.exponential_decay is deprecated. Please use tf.compat.v1.train.exponential_decay instead.
+
+W0224 14:10:41.125222 140078607413888 module_wrapper.py:139] From train_image_classifier.py:243: The name tf.train.exponential_decay is deprecated. Please use tf.compat.v1.train.exponential_decay instead.
+
+WARNING:tensorflow:From train_image_classifier.py:304: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+W0224 14:10:41.129220 140078607413888 module_wrapper.py:139] From train_image_classifier.py:304: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From train_image_classifier.py:371: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+W0224 14:10:41.130238 140078607413888 module_wrapper.py:139] From train_image_classifier.py:371: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+INFO:tensorflow:Summary name /clone_loss is illegal; using clone_loss instead.
+I0224 14:10:41.132926 140078607413888 summary_op_util.py:66] Summary name /clone_loss is illegal; using clone_loss instead.
+WARNING:tensorflow:From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tensorflow_core/python/training/rmsprop.py:119: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0224 14:10:42.068231 140078607413888 deprecation.py:506] From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tensorflow_core/python/training/rmsprop.py:119: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From train_image_classifier.py:555: The name tf.summary.merge is deprecated. Please use tf.compat.v1.summary.merge instead.
+
+W0224 14:10:42.896955 140078607413888 module_wrapper.py:139] From train_image_classifier.py:555: The name tf.summary.merge is deprecated. Please use tf.compat.v1.summary.merge instead.
+
+WARNING:tensorflow:From train_image_classifier.py:330: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0224 14:10:42.906325 140078607413888 module_wrapper.py:139] From train_image_classifier.py:330: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+INFO:tensorflow:Ignoring --checkpoint_path because a checkpoint already exists in result
+I0224 14:10:42.906519 140078607413888 train_image_classifier.py:332] Ignoring --checkpoint_path because a checkpoint already exists in result
+WARNING:tensorflow:From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tf_slim/learning.py:734: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+W0224 14:10:43.531708 140078607413888 deprecation.py:323] From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tf_slim/learning.py:734: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2025-02-24 14:10:43.906077: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2025-02-24 14:10:43.906132: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: UNKNOWN ERROR (303)
+2025-02-24 14:10:43.906156: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (shivapriya): /proc/driver/nvidia/version does not exist
+2025-02-24 14:10:43.906893: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2025-02-24 14:10:43.932739: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2593905000 Hz
+2025-02-24 14:10:43.932985: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x38015ea0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2025-02-24 14:10:43.933012: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+INFO:tensorflow:Restoring parameters from result/model.ckpt-1279
+I0224 14:10:43.937747 140078607413888 saver.py:1284] Restoring parameters from result/model.ckpt-1279
+WARNING:tensorflow:From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+W0224 14:10:44.962716 140078607413888 deprecation.py:323] From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:1069: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+INFO:tensorflow:Running local_init_op.
+I0224 14:10:44.969256 140078607413888 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0224 14:10:45.185441 140078607413888 session_manager.py:502] Done running local_init_op.
+INFO:tensorflow:Starting Session.
+I0224 14:10:47.906038 140078607413888 learning.py:746] Starting Session.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:10:48.105764 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Starting Queues.
+I0224 14:10:48.111978 140078607413888 learning.py:760] Starting Queues.
+INFO:tensorflow:global_step/sec: 0
+I0224 14:10:52.317269 140076289861376 supervisor.py:1099] global_step/sec: 0
+INFO:tensorflow:Recording summary at step 1279.
+I0224 14:11:03.155061 140076298254080 supervisor.py:1050] Recording summary at step 1279.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:12:28.105967 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:global_step/sec: 0.126729
+I0224 14:12:34.898323 140076289861376 supervisor.py:1099] global_step/sec: 0.126729
+WARNING:tensorflow:From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+W0224 14:12:34.901475 140076306646784 deprecation.py:323] From /home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+INFO:tensorflow:Recording summary at step 1292.
+I0224 14:12:38.215809 140076298254080 supervisor.py:1050] Recording summary at step 1292.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:14:08.105926 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1305.
+I0224 14:14:17.800826 140076298254080 supervisor.py:1050] Recording summary at step 1305.
+INFO:tensorflow:global_step/sec: 0.126319
+I0224 14:14:17.812565 140076289861376 supervisor.py:1099] global_step/sec: 0.126319
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:15:48.105934 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1319.
+I0224 14:15:58.756500 140076298254080 supervisor.py:1050] Recording summary at step 1319.
+INFO:tensorflow:global_step/sec: 0.13869
+I0224 14:15:58.757172 140076289861376 supervisor.py:1099] global_step/sec: 0.13869
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:17:28.105937 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:global_step/sec: 0.150972
+I0224 14:17:31.489240 140076289861376 supervisor.py:1099] global_step/sec: 0.150972
+INFO:tensorflow:Recording summary at step 1333.
+I0224 14:17:37.958796 140076298254080 supervisor.py:1050] Recording summary at step 1333.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:19:08.105926 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:global_step/sec: 0.13727
+I0224 14:19:13.477609 140076289861376 supervisor.py:1099] global_step/sec: 0.13727
+INFO:tensorflow:Recording summary at step 1347.
+I0224 14:19:18.518417 140076298254080 supervisor.py:1050] Recording summary at step 1347.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:20:48.105879 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:global_step/sec: 0.135389
+I0224 14:20:56.883324 140076289861376 supervisor.py:1099] global_step/sec: 0.135389
+INFO:tensorflow:Recording summary at step 1361.
+I0224 14:20:58.398963 140076298254080 supervisor.py:1050] Recording summary at step 1361.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:22:28.105930 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:global_step/sec: 0.140058
+I0224 14:22:29.701961 140076289861376 supervisor.py:1099] global_step/sec: 0.140058
+INFO:tensorflow:Recording summary at step 1374.
+I0224 14:22:36.435401 140076298254080 supervisor.py:1050] Recording summary at step 1374.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:24:08.106001 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:global_step/sec: 0.135962
+I0224 14:24:12.672158 140076289861376 supervisor.py:1099] global_step/sec: 0.135962
+INFO:tensorflow:Recording summary at step 1388.
+I0224 14:24:17.935997 140076298254080 supervisor.py:1050] Recording summary at step 1388.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:25:48.105928 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:global_step/sec: 0.135363
+I0224 14:25:56.097401 140076289861376 supervisor.py:1099] global_step/sec: 0.135363
+INFO:tensorflow:Recording summary at step 1402.
+I0224 14:25:58.465478 140076298254080 supervisor.py:1050] Recording summary at step 1402.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:27:28.106380 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1415.
+I0224 14:27:38.237254 140076298254080 supervisor.py:1050] Recording summary at step 1415.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:29:08.112785 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1429.
+I0224 14:29:17.575994 140076298254080 supervisor.py:1050] Recording summary at step 1429.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:30:48.105930 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1443.
+I0224 14:30:58.534713 140076298254080 supervisor.py:1050] Recording summary at step 1443.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:32:28.105924 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1457.
+I0224 14:32:38.320688 140076298254080 supervisor.py:1050] Recording summary at step 1457.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:34:08.105909 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1470.
+I0224 14:34:17.751132 140076298254080 supervisor.py:1050] Recording summary at step 1470.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:35:48.105952 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1484.
+I0224 14:35:58.096132 140076298254080 supervisor.py:1050] Recording summary at step 1484.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:37:28.105939 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1498.
+I0224 14:37:38.388365 140076298254080 supervisor.py:1050] Recording summary at step 1498.
+INFO:tensorflow:global step 1500: loss = 0.1781 (6.957 sec/step)
+I0224 14:37:47.808485 140078607413888 learning.py:512] global step 1500: loss = 0.1781 (6.957 sec/step)
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:39:08.105912 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1512.
+I0224 14:39:18.302487 140076298254080 supervisor.py:1050] Recording summary at step 1512.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:40:48.105926 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1526.
+I0224 14:40:58.279483 140076298254080 supervisor.py:1050] Recording summary at step 1526.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:42:28.105927 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1540.
+I0224 14:42:37.796111 140076298254080 supervisor.py:1050] Recording summary at step 1540.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:44:08.106048 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1554.
+I0224 14:44:18.405558 140076298254080 supervisor.py:1050] Recording summary at step 1554.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:45:48.105993 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1568.
+I0224 14:45:58.022246 140076298254080 supervisor.py:1050] Recording summary at step 1568.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:47:28.105910 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1582.
+I0224 14:47:38.452424 140076298254080 supervisor.py:1050] Recording summary at step 1582.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:49:08.105947 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1596.
+I0224 14:49:18.569715 140076298254080 supervisor.py:1050] Recording summary at step 1596.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:50:48.105905 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1610.
+I0224 14:50:58.719207 140076298254080 supervisor.py:1050] Recording summary at step 1610.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:52:28.105926 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1624.
+I0224 14:52:38.335168 140076298254080 supervisor.py:1050] Recording summary at step 1624.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:54:08.105915 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1638.
+I0224 14:54:17.959514 140076298254080 supervisor.py:1050] Recording summary at step 1638.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:55:48.105919 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1652.
+I0224 14:55:58.832637 140076298254080 supervisor.py:1050] Recording summary at step 1652.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:57:28.105908 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1665.
+I0224 14:57:37.965742 140076298254080 supervisor.py:1050] Recording summary at step 1665.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 14:59:08.106666 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1679.
+I0224 14:59:18.116091 140076298254080 supervisor.py:1050] Recording summary at step 1679.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:00:48.105913 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1693.
+I0224 15:00:58.748246 140076298254080 supervisor.py:1050] Recording summary at step 1693.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:02:28.105916 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1707.
+I0224 15:02:38.563873 140076298254080 supervisor.py:1050] Recording summary at step 1707.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:04:08.105941 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1721.
+I0224 15:04:18.236852 140076298254080 supervisor.py:1050] Recording summary at step 1721.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:05:48.105916 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1735.
+I0224 15:05:57.527541 140076298254080 supervisor.py:1050] Recording summary at step 1735.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:07:28.105915 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1748.
+I0224 15:07:37.709254 140076298254080 supervisor.py:1050] Recording summary at step 1748.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:09:08.105944 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1762.
+I0224 15:09:18.082110 140076298254080 supervisor.py:1050] Recording summary at step 1762.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:10:48.105946 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1776.
+I0224 15:10:59.895908 140076298254080 supervisor.py:1050] Recording summary at step 1776.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:12:28.106549 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1789.
+I0224 15:12:37.839205 140076298254080 supervisor.py:1050] Recording summary at step 1789.
+INFO:tensorflow:global step 1800: loss = 0.1782 (6.749 sec/step)
+I0224 15:13:47.061102 140078607413888 learning.py:512] global step 1800: loss = 0.1782 (6.749 sec/step)
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:14:08.105998 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1803.
+I0224 15:14:18.629315 140076298254080 supervisor.py:1050] Recording summary at step 1803.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:15:48.105924 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1817.
+I0224 15:15:57.311298 140076298254080 supervisor.py:1050] Recording summary at step 1817.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:17:28.105929 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1831.
+I0224 15:17:37.717348 140076298254080 supervisor.py:1050] Recording summary at step 1831.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:19:08.105929 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1845.
+I0224 15:19:18.192983 140076298254080 supervisor.py:1050] Recording summary at step 1845.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:20:48.105928 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1859.
+I0224 15:20:57.659390 140076298254080 supervisor.py:1050] Recording summary at step 1859.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:22:28.105960 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1872.
+I0224 15:22:38.642753 140076298254080 supervisor.py:1050] Recording summary at step 1872.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:24:08.106012 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1886.
+I0224 15:24:16.647080 140076298254080 supervisor.py:1050] Recording summary at step 1886.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:25:48.105918 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1900.
+I0224 15:25:58.751349 140076298254080 supervisor.py:1050] Recording summary at step 1900.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:27:28.105917 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1914.
+I0224 15:27:38.232269 140076298254080 supervisor.py:1050] Recording summary at step 1914.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:29:08.105927 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1928.
+I0224 15:29:18.165303 140076298254080 supervisor.py:1050] Recording summary at step 1928.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:30:48.105931 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1942.
+I0224 15:30:58.308702 140076298254080 supervisor.py:1050] Recording summary at step 1942.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:32:28.105947 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1956.
+I0224 15:32:38.433936 140076298254080 supervisor.py:1050] Recording summary at step 1956.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:34:08.105939 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1970.
+I0224 15:34:17.647252 140076298254080 supervisor.py:1050] Recording summary at step 1970.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:35:48.105920 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1984.
+I0224 15:35:58.629819 140076298254080 supervisor.py:1050] Recording summary at step 1984.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:37:28.105865 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 1998.
+I0224 15:37:37.943535 140076298254080 supervisor.py:1050] Recording summary at step 1998.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:39:08.106072 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2012.
+I0224 15:39:17.352854 140076298254080 supervisor.py:1050] Recording summary at step 2012.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:40:48.105911 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2026.
+I0224 15:40:57.480108 140076298254080 supervisor.py:1050] Recording summary at step 2026.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:42:28.105925 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2041.
+I0224 15:42:37.447054 140076298254080 supervisor.py:1050] Recording summary at step 2041.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:44:08.105909 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2055.
+I0224 15:44:18.237006 140076298254080 supervisor.py:1050] Recording summary at step 2055.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:45:48.105919 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2069.
+I0224 15:45:58.481230 140076298254080 supervisor.py:1050] Recording summary at step 2069.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:47:28.105908 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2083.
+I0224 15:47:38.293423 140076298254080 supervisor.py:1050] Recording summary at step 2083.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:49:08.105928 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2096.
+I0224 15:49:18.633049 140076298254080 supervisor.py:1050] Recording summary at step 2096.
+INFO:tensorflow:global step 2100: loss = 0.1777 (6.791 sec/step)
+I0224 15:49:39.321335 140078607413888 learning.py:512] global step 2100: loss = 0.1777 (6.791 sec/step)
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:50:48.105927 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2110.
+I0224 15:50:57.397157 140076298254080 supervisor.py:1050] Recording summary at step 2110.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:52:28.105864 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2124.
+I0224 15:52:37.893137 140076298254080 supervisor.py:1050] Recording summary at step 2124.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:54:08.105902 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2138.
+I0224 15:54:18.958411 140076298254080 supervisor.py:1050] Recording summary at step 2138.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:55:48.105917 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2151.
+I0224 15:55:58.142949 140076298254080 supervisor.py:1050] Recording summary at step 2151.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:57:28.105925 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2165.
+I0224 15:57:38.398676 140076298254080 supervisor.py:1050] Recording summary at step 2165.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 15:59:08.105948 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2179.
+I0224 15:59:18.518940 140076298254080 supervisor.py:1050] Recording summary at step 2179.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:00:48.105940 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2193.
+I0224 16:00:58.523383 140076298254080 supervisor.py:1050] Recording summary at step 2193.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:02:28.105886 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2207.
+I0224 16:02:38.359564 140076298254080 supervisor.py:1050] Recording summary at step 2207.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:04:08.105921 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2221.
+I0224 16:04:18.514617 140076298254080 supervisor.py:1050] Recording summary at step 2221.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:05:48.105914 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2234.
+I0224 16:05:57.678839 140076298254080 supervisor.py:1050] Recording summary at step 2234.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:07:28.106071 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2248.
+I0224 16:07:38.101425 140076298254080 supervisor.py:1050] Recording summary at step 2248.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:09:08.105930 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2262.
+I0224 16:09:17.838987 140076298254080 supervisor.py:1050] Recording summary at step 2262.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:10:48.105929 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2276.
+I0224 16:10:55.587391 140076298254080 supervisor.py:1050] Recording summary at step 2276.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:12:28.105938 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2290.
+I0224 16:12:39.277218 140076298254080 supervisor.py:1050] Recording summary at step 2290.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:14:08.105938 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2304.
+I0224 16:14:18.589231 140076298254080 supervisor.py:1050] Recording summary at step 2304.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:15:48.105923 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2317.
+I0224 16:15:57.483930 140076298254080 supervisor.py:1050] Recording summary at step 2317.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:17:28.106497 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2331.
+I0224 16:17:38.017843 140076298254080 supervisor.py:1050] Recording summary at step 2331.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:19:08.105937 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2345.
+I0224 16:19:18.231230 140076298254080 supervisor.py:1050] Recording summary at step 2345.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:20:48.105943 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2359.
+I0224 16:20:58.241836 140076298254080 supervisor.py:1050] Recording summary at step 2359.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:22:28.105926 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2373.
+I0224 16:22:38.202318 140076298254080 supervisor.py:1050] Recording summary at step 2373.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:24:08.105940 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2387.
+I0224 16:24:17.431959 140076298254080 supervisor.py:1050] Recording summary at step 2387.
+INFO:tensorflow:global step 2400: loss = 0.1777 (6.886 sec/step)
+I0224 16:25:47.604507 140078607413888 learning.py:512] global step 2400: loss = 0.1777 (6.886 sec/step)
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:25:48.106473 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2400.
+I0224 16:25:58.126817 140076298254080 supervisor.py:1050] Recording summary at step 2400.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:27:28.105886 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2414.
+I0224 16:27:39.005225 140076298254080 supervisor.py:1050] Recording summary at step 2414.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:29:08.105926 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2428.
+I0224 16:29:18.223292 140076298254080 supervisor.py:1050] Recording summary at step 2428.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:30:48.105908 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2442.
+I0224 16:30:58.087187 140076298254080 supervisor.py:1050] Recording summary at step 2442.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:32:28.105904 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2456.
+I0224 16:32:39.054939 140076298254080 supervisor.py:1050] Recording summary at step 2456.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:34:08.105937 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2469.
+I0224 16:34:18.209155 140076298254080 supervisor.py:1050] Recording summary at step 2469.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:35:48.105925 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2483.
+I0224 16:35:58.235652 140076298254080 supervisor.py:1050] Recording summary at step 2483.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:37:28.106036 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2497.
+I0224 16:37:38.230608 140076298254080 supervisor.py:1050] Recording summary at step 2497.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:39:08.105933 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2511.
+I0224 16:39:18.703787 140076298254080 supervisor.py:1050] Recording summary at step 2511.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:40:48.105938 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2524.
+I0224 16:40:58.230667 140076298254080 supervisor.py:1050] Recording summary at step 2524.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:42:28.105919 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2538.
+I0224 16:42:38.160868 140076298254080 supervisor.py:1050] Recording summary at step 2538.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:44:08.105941 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2552.
+I0224 16:44:18.429750 140076298254080 supervisor.py:1050] Recording summary at step 2552.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:45:48.106173 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2566.
+I0224 16:45:58.522641 140076298254080 supervisor.py:1050] Recording summary at step 2566.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:47:28.105921 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2580.
+I0224 16:47:38.433860 140076298254080 supervisor.py:1050] Recording summary at step 2580.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:49:08.105925 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2594.
+I0224 16:49:17.895617 140076298254080 supervisor.py:1050] Recording summary at step 2594.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:50:48.105951 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2608.
+I0224 16:50:58.816614 140076298254080 supervisor.py:1050] Recording summary at step 2608.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:52:28.105893 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2622.
+I0224 16:52:38.281878 140076298254080 supervisor.py:1050] Recording summary at step 2622.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:54:08.105983 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2635.
+I0224 16:54:18.443160 140076298254080 supervisor.py:1050] Recording summary at step 2635.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:55:48.112816 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2649.
+I0224 16:55:58.349443 140076298254080 supervisor.py:1050] Recording summary at step 2649.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:57:28.106612 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2663.
+I0224 16:57:38.425819 140076298254080 supervisor.py:1050] Recording summary at step 2663.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 16:59:08.105944 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2677.
+I0224 16:59:18.090667 140076298254080 supervisor.py:1050] Recording summary at step 2677.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:00:48.106559 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2690.
+I0224 17:00:58.101290 140076298254080 supervisor.py:1050] Recording summary at step 2690.
+INFO:tensorflow:global step 2700: loss = 0.1778 (6.864 sec/step)
+I0224 17:02:01.627093 140078607413888 learning.py:512] global step 2700: loss = 0.1778 (6.864 sec/step)
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:02:28.105895 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2704.
+I0224 17:02:38.962346 140076298254080 supervisor.py:1050] Recording summary at step 2704.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:04:08.105904 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2718.
+I0224 17:04:18.064364 140076298254080 supervisor.py:1050] Recording summary at step 2718.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:05:48.105939 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2732.
+I0224 17:05:58.370559 140076298254080 supervisor.py:1050] Recording summary at step 2732.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:07:28.105921 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2745.
+I0224 17:07:37.990735 140076298254080 supervisor.py:1050] Recording summary at step 2745.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:09:08.112762 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2759.
+I0224 17:09:17.841741 140076298254080 supervisor.py:1050] Recording summary at step 2759.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:10:48.106574 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2773.
+I0224 17:10:58.376547 140076298254080 supervisor.py:1050] Recording summary at step 2773.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:12:28.105925 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2787.
+I0224 17:12:38.221105 140076298254080 supervisor.py:1050] Recording summary at step 2787.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:14:08.105915 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2801.
+I0224 17:14:18.563555 140076298254080 supervisor.py:1050] Recording summary at step 2801.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:15:48.106056 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2815.
+I0224 17:15:59.236357 140076298254080 supervisor.py:1050] Recording summary at step 2815.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:17:28.105924 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2829.
+I0224 17:17:38.204965 140076298254080 supervisor.py:1050] Recording summary at step 2829.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:19:08.105925 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2843.
+I0224 17:19:18.022577 140076298254080 supervisor.py:1050] Recording summary at step 2843.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:20:48.105931 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2856.
+I0224 17:20:58.066864 140076298254080 supervisor.py:1050] Recording summary at step 2856.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:22:28.106515 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2870.
+I0224 17:22:36.844983 140076298254080 supervisor.py:1050] Recording summary at step 2870.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:24:08.105930 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2884.
+I0224 17:24:18.090953 140076298254080 supervisor.py:1050] Recording summary at step 2884.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:25:48.105942 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2898.
+I0224 17:25:58.211249 140076298254080 supervisor.py:1050] Recording summary at step 2898.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:27:28.106234 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2912.
+I0224 17:27:38.052805 140076298254080 supervisor.py:1050] Recording summary at step 2912.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:29:08.105971 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2926.
+I0224 17:29:18.098590 140076298254080 supervisor.py:1050] Recording summary at step 2926.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:30:48.105927 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2940.
+I0224 17:30:58.183058 140076298254080 supervisor.py:1050] Recording summary at step 2940.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:32:28.106516 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2954.
+I0224 17:32:38.587386 140076298254080 supervisor.py:1050] Recording summary at step 2954.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:34:08.105911 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2968.
+I0224 17:34:17.423836 140076298254080 supervisor.py:1050] Recording summary at step 2968.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:35:48.105944 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2981.
+I0224 17:35:58.375205 140076298254080 supervisor.py:1050] Recording summary at step 2981.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:37:28.105975 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 2995.
+I0224 17:37:37.839238 140076298254080 supervisor.py:1050] Recording summary at step 2995.
+INFO:tensorflow:global step 3000: loss = 0.1794 (6.917 sec/step)
+I0224 17:38:08.274436 140078607413888 learning.py:512] global step 3000: loss = 0.1794 (6.917 sec/step)
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:39:08.108845 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3009.
+I0224 17:39:18.697475 140076298254080 supervisor.py:1050] Recording summary at step 3009.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:40:48.105930 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3023.
+I0224 17:40:58.330889 140076298254080 supervisor.py:1050] Recording summary at step 3023.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:42:28.106354 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3036.
+I0224 17:42:38.979305 140076298254080 supervisor.py:1050] Recording summary at step 3036.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:44:08.106079 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3050.
+I0224 17:44:18.220689 140076298254080 supervisor.py:1050] Recording summary at step 3050.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:45:48.107803 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3064.
+I0224 17:45:58.506547 140076298254080 supervisor.py:1050] Recording summary at step 3064.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:47:28.106638 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3078.
+I0224 17:47:38.366121 140076298254080 supervisor.py:1050] Recording summary at step 3078.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:49:08.105911 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3092.
+I0224 17:49:18.304012 140076298254080 supervisor.py:1050] Recording summary at step 3092.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:50:48.105927 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3106.
+I0224 17:50:58.622872 140076298254080 supervisor.py:1050] Recording summary at step 3106.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:52:28.105951 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3120.
+I0224 17:52:38.526193 140076298254080 supervisor.py:1050] Recording summary at step 3120.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:54:08.105916 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3134.
+I0224 17:54:17.727796 140076298254080 supervisor.py:1050] Recording summary at step 3134.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:55:48.105937 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3147.
+I0224 17:55:58.506538 140076298254080 supervisor.py:1050] Recording summary at step 3147.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:57:28.105938 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3161.
+I0224 17:57:38.275824 140076298254080 supervisor.py:1050] Recording summary at step 3161.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 17:59:08.105925 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3175.
+I0224 17:59:18.376562 140076298254080 supervisor.py:1050] Recording summary at step 3175.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:00:48.105941 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3189.
+I0224 18:00:58.936385 140076298254080 supervisor.py:1050] Recording summary at step 3189.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:02:28.105910 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3203.
+I0224 18:02:38.191235 140076298254080 supervisor.py:1050] Recording summary at step 3203.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:04:08.106318 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3216.
+I0224 18:04:18.651126 140076298254080 supervisor.py:1050] Recording summary at step 3216.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:05:48.105930 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3230.
+I0224 18:05:56.641824 140076298254080 supervisor.py:1050] Recording summary at step 3230.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:07:28.105926 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3244.
+I0224 18:07:38.093109 140076298254080 supervisor.py:1050] Recording summary at step 3244.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:09:08.105932 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3258.
+I0224 18:09:18.553758 140076298254080 supervisor.py:1050] Recording summary at step 3258.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:10:48.105942 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3272.
+I0224 18:10:58.632833 140076298254080 supervisor.py:1050] Recording summary at step 3272.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:12:28.105937 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3285.
+I0224 18:12:38.404036 140076298254080 supervisor.py:1050] Recording summary at step 3285.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:14:08.105929 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3299.
+I0224 18:14:16.720849 140076298254080 supervisor.py:1050] Recording summary at step 3299.
+INFO:tensorflow:global step 3300: loss = 0.1775 (10.500 sec/step)
+I0224 18:14:20.642658 140078607413888 learning.py:512] global step 3300: loss = 0.1775 (10.500 sec/step)
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:15:48.105926 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3313.
+I0224 18:15:58.532050 140076298254080 supervisor.py:1050] Recording summary at step 3313.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:17:28.105931 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3327.
+I0224 18:17:38.710297 140076298254080 supervisor.py:1050] Recording summary at step 3327.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:19:08.105918 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3341.
+I0224 18:19:17.300726 140076298254080 supervisor.py:1050] Recording summary at step 3341.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:20:48.106083 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3354.
+I0224 18:20:57.613221 140076298254080 supervisor.py:1050] Recording summary at step 3354.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:22:28.105948 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3368.
+I0224 18:22:38.510681 140076298254080 supervisor.py:1050] Recording summary at step 3368.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:24:08.105892 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3382.
+I0224 18:24:18.531531 140076298254080 supervisor.py:1050] Recording summary at step 3382.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:25:48.105893 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3396.
+I0224 18:25:58.033408 140076298254080 supervisor.py:1050] Recording summary at step 3396.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:27:28.106011 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3410.
+I0224 18:27:38.523413 140076298254080 supervisor.py:1050] Recording summary at step 3410.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:29:08.106095 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3424.
+I0224 18:29:17.758543 140076298254080 supervisor.py:1050] Recording summary at step 3424.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:30:48.105916 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3438.
+I0224 18:30:58.756455 140076298254080 supervisor.py:1050] Recording summary at step 3438.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:32:28.105928 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3452.
+I0224 18:32:38.903218 140076298254080 supervisor.py:1050] Recording summary at step 3452.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:34:08.105926 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3466.
+I0224 18:34:18.160884 140076298254080 supervisor.py:1050] Recording summary at step 3466.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:35:48.105913 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3480.
+I0224 18:35:58.133906 140076298254080 supervisor.py:1050] Recording summary at step 3480.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:37:28.105953 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3494.
+I0224 18:37:38.483071 140076298254080 supervisor.py:1050] Recording summary at step 3494.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:39:08.105941 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3508.
+I0224 18:39:18.092936 140076298254080 supervisor.py:1050] Recording summary at step 3508.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:40:48.105946 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3522.
+I0224 18:40:57.766993 140076298254080 supervisor.py:1050] Recording summary at step 3522.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:42:28.105918 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3535.
+I0224 18:42:38.126572 140076298254080 supervisor.py:1050] Recording summary at step 3535.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:44:08.105914 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3550.
+I0224 18:44:18.073187 140076298254080 supervisor.py:1050] Recording summary at step 3550.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:45:48.105926 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3563.
+I0224 18:45:58.626650 140076298254080 supervisor.py:1050] Recording summary at step 3563.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:47:28.105921 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3577.
+I0224 18:47:38.146605 140076298254080 supervisor.py:1050] Recording summary at step 3577.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:49:08.105906 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3591.
+I0224 18:49:17.655267 140076298254080 supervisor.py:1050] Recording summary at step 3591.
+INFO:tensorflow:global step 3600: loss = 0.1781 (6.658 sec/step)
+I0224 18:50:13.965953 140078607413888 learning.py:512] global step 3600: loss = 0.1781 (6.658 sec/step)
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:50:48.105926 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3605.
+I0224 18:50:58.466179 140076298254080 supervisor.py:1050] Recording summary at step 3605.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:52:28.105922 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3619.
+I0224 18:52:38.107582 140076298254080 supervisor.py:1050] Recording summary at step 3619.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:54:08.105937 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3633.
+I0224 18:54:17.414131 140076298254080 supervisor.py:1050] Recording summary at step 3633.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:55:48.105909 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3647.
+I0224 18:55:58.603010 140076298254080 supervisor.py:1050] Recording summary at step 3647.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:57:28.105874 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3661.
+I0224 18:57:38.296457 140076298254080 supervisor.py:1050] Recording summary at step 3661.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 18:59:08.105929 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3675.
+I0224 18:59:17.949348 140076298254080 supervisor.py:1050] Recording summary at step 3675.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:00:48.105968 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3688.
+I0224 19:00:57.946084 140076298254080 supervisor.py:1050] Recording summary at step 3688.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:02:28.105913 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3702.
+I0224 19:02:38.106963 140076298254080 supervisor.py:1050] Recording summary at step 3702.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:04:08.105918 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3716.
+I0224 19:04:18.391727 140076298254080 supervisor.py:1050] Recording summary at step 3716.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:05:48.105966 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3730.
+I0224 19:05:58.072675 140076298254080 supervisor.py:1050] Recording summary at step 3730.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:07:28.105932 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3744.
+I0224 19:07:37.991798 140076298254080 supervisor.py:1050] Recording summary at step 3744.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:09:08.105959 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3758.
+I0224 19:09:17.743157 140076298254080 supervisor.py:1050] Recording summary at step 3758.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:10:48.105934 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3772.
+I0224 19:10:57.980388 140076298254080 supervisor.py:1050] Recording summary at step 3772.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:12:28.105930 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3785.
+I0224 19:12:38.397263 140076298254080 supervisor.py:1050] Recording summary at step 3785.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:14:08.105928 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3799.
+I0224 19:14:19.030892 140076298254080 supervisor.py:1050] Recording summary at step 3799.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:15:48.105947 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3813.
+I0224 19:15:58.265599 140076298254080 supervisor.py:1050] Recording summary at step 3813.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:17:28.105916 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3827.
+I0224 19:17:38.896023 140076298254080 supervisor.py:1050] Recording summary at step 3827.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:19:08.105927 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3840.
+I0224 19:19:18.431536 140076298254080 supervisor.py:1050] Recording summary at step 3840.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:20:48.105908 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3854.
+I0224 19:20:58.346852 140076298254080 supervisor.py:1050] Recording summary at step 3854.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:22:28.105918 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3868.
+I0224 19:22:39.091944 140076298254080 supervisor.py:1050] Recording summary at step 3868.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:24:08.112784 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3882.
+I0224 19:24:18.054493 140076298254080 supervisor.py:1050] Recording summary at step 3882.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:25:48.105940 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3895.
+I0224 19:25:58.286024 140076298254080 supervisor.py:1050] Recording summary at step 3895.
+INFO:tensorflow:global step 3900: loss = 0.1775 (6.848 sec/step)
+I0224 19:26:26.465971 140078607413888 learning.py:512] global step 3900: loss = 0.1775 (6.848 sec/step)
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:27:28.112763 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3909.
+I0224 19:27:38.308617 140076298254080 supervisor.py:1050] Recording summary at step 3909.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:29:08.105926 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3923.
+I0224 19:29:17.967486 140076298254080 supervisor.py:1050] Recording summary at step 3923.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:30:48.105968 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3937.
+I0224 19:30:58.538063 140076298254080 supervisor.py:1050] Recording summary at step 3937.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:32:28.105924 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3951.
+I0224 19:32:38.692549 140076298254080 supervisor.py:1050] Recording summary at step 3951.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:34:08.105936 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3965.
+I0224 19:34:18.856520 140076298254080 supervisor.py:1050] Recording summary at step 3965.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:35:48.105912 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3979.
+I0224 19:35:58.157980 140076298254080 supervisor.py:1050] Recording summary at step 3979.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:37:28.105917 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 3993.
+I0224 19:37:37.858179 140076298254080 supervisor.py:1050] Recording summary at step 3993.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:39:08.105919 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4007.
+I0224 19:39:18.365591 140076298254080 supervisor.py:1050] Recording summary at step 4007.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:40:48.105928 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4021.
+I0224 19:40:58.162762 140076298254080 supervisor.py:1050] Recording summary at step 4021.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:42:28.105961 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4034.
+I0224 19:42:38.948018 140076298254080 supervisor.py:1050] Recording summary at step 4034.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:44:08.105922 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4048.
+I0224 19:44:18.532059 140076298254080 supervisor.py:1050] Recording summary at step 4048.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:45:48.105939 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4061.
+I0224 19:45:58.027947 140076298254080 supervisor.py:1050] Recording summary at step 4061.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:47:28.105980 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4075.
+I0224 19:47:38.918968 140076298254080 supervisor.py:1050] Recording summary at step 4075.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:49:08.106338 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4089.
+I0224 19:49:17.947685 140076298254080 supervisor.py:1050] Recording summary at step 4089.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:50:48.105887 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4103.
+I0224 19:50:58.743732 140076298254080 supervisor.py:1050] Recording summary at step 4103.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:52:28.105914 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4117.
+I0224 19:52:38.560538 140076298254080 supervisor.py:1050] Recording summary at step 4117.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:54:08.105931 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4131.
+I0224 19:54:18.249291 140076298254080 supervisor.py:1050] Recording summary at step 4131.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:55:48.105912 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4144.
+I0224 19:55:58.434496 140076298254080 supervisor.py:1050] Recording summary at step 4144.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:57:28.105915 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4158.
+I0224 19:57:38.973722 140076298254080 supervisor.py:1050] Recording summary at step 4158.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 19:59:08.105935 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4172.
+I0224 19:59:18.204691 140076298254080 supervisor.py:1050] Recording summary at step 4172.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:00:48.105888 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4186.
+I0224 20:00:57.873339 140076298254080 supervisor.py:1050] Recording summary at step 4186.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:02:28.106683 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4199.
+I0224 20:02:37.931219 140076298254080 supervisor.py:1050] Recording summary at step 4199.
+INFO:tensorflow:global step 4200: loss = 0.1773 (11.609 sec/step)
+I0224 20:02:39.089497 140078607413888 learning.py:512] global step 4200: loss = 0.1773 (11.609 sec/step)
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:04:08.105937 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4213.
+I0224 20:04:18.320098 140076298254080 supervisor.py:1050] Recording summary at step 4213.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:05:48.105875 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4227.
+I0224 20:05:58.257018 140076298254080 supervisor.py:1050] Recording summary at step 4227.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:07:28.105920 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4242.
+I0224 20:07:38.627765 140076298254080 supervisor.py:1050] Recording summary at step 4242.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:09:08.105937 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4255.
+I0224 20:09:18.644833 140076298254080 supervisor.py:1050] Recording summary at step 4255.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:10:48.105930 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4269.
+I0224 20:10:58.469717 140076298254080 supervisor.py:1050] Recording summary at step 4269.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:12:28.112778 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4283.
+I0224 20:12:36.652140 140076298254080 supervisor.py:1050] Recording summary at step 4283.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:14:08.105943 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4297.
+I0224 20:14:17.641434 140076298254080 supervisor.py:1050] Recording summary at step 4297.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:15:48.105934 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4311.
+I0224 20:15:58.814356 140076298254080 supervisor.py:1050] Recording summary at step 4311.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:17:28.105931 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4325.
+I0224 20:17:37.903243 140076298254080 supervisor.py:1050] Recording summary at step 4325.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:19:08.105910 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4339.
+I0224 20:19:18.578114 140076298254080 supervisor.py:1050] Recording summary at step 4339.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:20:48.105952 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4353.
+I0224 20:20:57.807413 140076298254080 supervisor.py:1050] Recording summary at step 4353.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:22:28.105931 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4366.
+I0224 20:22:38.874139 140076298254080 supervisor.py:1050] Recording summary at step 4366.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:24:08.105916 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4380.
+I0224 20:24:18.179944 140076298254080 supervisor.py:1050] Recording summary at step 4380.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:25:48.105933 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4394.
+I0224 20:25:58.332344 140076298254080 supervisor.py:1050] Recording summary at step 4394.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:27:28.105903 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4408.
+I0224 20:27:38.025274 140076298254080 supervisor.py:1050] Recording summary at step 4408.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:29:08.105918 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4422.
+I0224 20:29:16.564326 140076298254080 supervisor.py:1050] Recording summary at step 4422.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:30:48.105908 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4436.
+I0224 20:30:57.971651 140076298254080 supervisor.py:1050] Recording summary at step 4436.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:32:28.106194 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4450.
+I0224 20:32:38.512243 140076298254080 supervisor.py:1050] Recording summary at step 4450.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:34:08.105923 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4464.
+I0224 20:34:18.742590 140076298254080 supervisor.py:1050] Recording summary at step 4464.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:35:48.105926 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4478.
+I0224 20:35:58.476123 140076298254080 supervisor.py:1050] Recording summary at step 4478.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:37:28.105910 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4491.
+I0224 20:37:37.322199 140076298254080 supervisor.py:1050] Recording summary at step 4491.
+INFO:tensorflow:global step 4500: loss = 0.1773 (6.731 sec/step)
+I0224 20:38:32.055308 140078607413888 learning.py:512] global step 4500: loss = 0.1773 (6.731 sec/step)
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:39:08.105927 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4506.
+I0224 20:39:18.350117 140076298254080 supervisor.py:1050] Recording summary at step 4506.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:40:48.105945 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4520.
+I0224 20:40:58.297055 140076298254080 supervisor.py:1050] Recording summary at step 4520.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:42:28.105900 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4533.
+I0224 20:42:38.971844 140076298254080 supervisor.py:1050] Recording summary at step 4533.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:44:08.105913 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4547.
+I0224 20:44:17.573818 140076298254080 supervisor.py:1050] Recording summary at step 4547.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:45:48.105937 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4561.
+I0224 20:45:58.298407 140076298254080 supervisor.py:1050] Recording summary at step 4561.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:47:28.106764 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4575.
+I0224 20:47:38.101814 140076298254080 supervisor.py:1050] Recording summary at step 4575.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:49:08.105930 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4589.
+I0224 20:49:17.952138 140076298254080 supervisor.py:1050] Recording summary at step 4589.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:50:48.105911 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4603.
+I0224 20:50:58.245121 140076298254080 supervisor.py:1050] Recording summary at step 4603.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:52:28.106067 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4617.
+I0224 20:52:37.848112 140076298254080 supervisor.py:1050] Recording summary at step 4617.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:54:08.112748 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4631.
+I0224 20:54:18.150663 140076298254080 supervisor.py:1050] Recording summary at step 4631.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:55:48.105926 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4645.
+I0224 20:55:58.606090 140076298254080 supervisor.py:1050] Recording summary at step 4645.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:57:28.105922 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4659.
+I0224 20:57:37.998534 140076298254080 supervisor.py:1050] Recording summary at step 4659.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 20:59:08.105943 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4673.
+I0224 20:59:18.440724 140076298254080 supervisor.py:1050] Recording summary at step 4673.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:00:48.105917 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4687.
+I0224 21:00:57.965368 140076298254080 supervisor.py:1050] Recording summary at step 4687.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:02:28.105913 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4701.
+I0224 21:02:38.423425 140076298254080 supervisor.py:1050] Recording summary at step 4701.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:04:08.105962 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4715.
+I0224 21:04:18.335939 140076298254080 supervisor.py:1050] Recording summary at step 4715.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:05:48.105918 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4729.
+I0224 21:05:57.377279 140076298254080 supervisor.py:1050] Recording summary at step 4729.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:07:28.105923 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4743.
+I0224 21:07:38.510547 140076298254080 supervisor.py:1050] Recording summary at step 4743.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:09:08.105923 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4757.
+I0224 21:09:18.189973 140076298254080 supervisor.py:1050] Recording summary at step 4757.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:10:48.105923 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4771.
+I0224 21:10:58.482740 140076298254080 supervisor.py:1050] Recording summary at step 4771.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:12:28.105932 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4785.
+I0224 21:12:38.335623 140076298254080 supervisor.py:1050] Recording summary at step 4785.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:14:08.108769 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4799.
+I0224 21:14:16.358207 140076298254080 supervisor.py:1050] Recording summary at step 4799.
+INFO:tensorflow:global step 4800: loss = 0.1772 (8.954 sec/step)
+I0224 21:14:19.855370 140078607413888 learning.py:512] global step 4800: loss = 0.1772 (8.954 sec/step)
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:15:48.105936 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4813.
+I0224 21:15:58.838437 140076298254080 supervisor.py:1050] Recording summary at step 4813.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:17:28.105909 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4827.
+I0224 21:17:38.375089 140076298254080 supervisor.py:1050] Recording summary at step 4827.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:19:08.106092 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4841.
+I0224 21:19:18.550453 140076298254080 supervisor.py:1050] Recording summary at step 4841.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:20:48.105922 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4854.
+I0224 21:20:58.145014 140076298254080 supervisor.py:1050] Recording summary at step 4854.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:22:28.105912 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4868.
+I0224 21:22:36.672253 140076298254080 supervisor.py:1050] Recording summary at step 4868.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:24:08.105927 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4882.
+I0224 21:24:18.847798 140076298254080 supervisor.py:1050] Recording summary at step 4882.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:25:48.105918 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4896.
+I0224 21:25:58.347596 140076298254080 supervisor.py:1050] Recording summary at step 4896.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:27:28.112793 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4909.
+I0224 21:27:38.514340 140076298254080 supervisor.py:1050] Recording summary at step 4909.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:29:08.106527 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4923.
+I0224 21:29:18.459751 140076298254080 supervisor.py:1050] Recording summary at step 4923.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:30:48.105941 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4937.
+I0224 21:30:58.706119 140076298254080 supervisor.py:1050] Recording summary at step 4937.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:32:28.106186 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4951.
+I0224 21:32:38.767376 140076298254080 supervisor.py:1050] Recording summary at step 4951.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:34:08.105904 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4965.
+I0224 21:34:18.662243 140076298254080 supervisor.py:1050] Recording summary at step 4965.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:35:48.105935 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4979.
+I0224 21:35:57.330136 140076298254080 supervisor.py:1050] Recording summary at step 4979.
+INFO:tensorflow:Saving checkpoint to path result/model.ckpt
+I0224 21:37:28.105923 140076306646784 supervisor.py:1117] Saving checkpoint to path result/model.ckpt
+INFO:tensorflow:Recording summary at step 4993.
+I0224 21:37:38.503304 140076298254080 supervisor.py:1050] Recording summary at step 4993.
+INFO:tensorflow:Stopping Training.
+I0224 21:38:22.211112 140078607413888 learning.py:769] Stopping Training.
+INFO:tensorflow:Finished training! Saving model to disk.
+I0224 21:38:22.211443 140078607413888 learning.py:777] Finished training! Saving model to disk.
+/home/ksaikrishna5601/.conda/envs/embryo-env/lib/python3.7/site-packages/tensorflow_core/python/summary/writer/writer.py:386: UserWarning: Attempting to use a closed FileWriter. The operation will be a noop unless the FileWriter is explicitly reopened.
+  warnings.warn("Attempting to use a closed FileWriter. "

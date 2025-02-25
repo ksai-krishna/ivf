@@ -1,0 +1,240 @@
+.
+├── 2.txt
+├── Docs
+│   ├── dataset.jpg
+│   ├── ivf_process.png
+│   ├── output.png
+│   └── pipeline.png
+├── Ethical Assessment
+│   ├── Ethical-Analysis.html
+│   └── Ethical-Analysis.ipynb
+├── Images
+│   ├── test
+│   │   ├── good_23765483_-15_3AA.jpg
+│   │   ├── good_23765483_-30_3AA.jpg
+│   │   ├── good_23765483_-45_3AA.jpg
+│   │   ├── good_23765483_0_3AA.jpg
+│   │   ├── good_23765483_15_3AA.jpg
+│   │   ├── good_23765483_30_3AA.jpg
+│   │   ├── good_23765483_45_3AA.jpg
+│   │   ├── poor_27002081_-15_1BB.jpg
+│   │   ├── poor_27002081_-30_1BB.jpg
+│   │   ├── poor_27002081_-45_1BB.jpg
+│   │   ├── poor_27002081_0_1BB.jpg
+│   │   ├── poor_27002081_15_1BB.jpg
+│   │   ├── poor_27002081_30_1BB.jpg
+│   │   └── poor_27002081_45_1BB.jpg
+│   └── train
+│       ├── good
+│       │   ├── 33996213_-15_3AB.jpg
+│       │   ├── 33996213_-30_3AB.jpg
+│       │   ├── 33996213_-45_3AB.jpg
+│       │   ├── 33996213_0_3AB.jpg
+│       │   ├── 33996213_15_3AB.jpg
+│       │   ├── 33996213_30_3AB.jpg
+│       │   ├── 33996213_45_3AB.jpg
+│       │   ├── 34107362_-15_3AA-.jpg
+│       │   ├── 34107362_-30_3AA-.jpg
+│       │   ├── 34107362_-45_3AA-.jpg
+│       │   ├── 34107362_0_3AA-.jpg
+│       │   ├── 34107362_15_3AA-.jpg
+│       │   ├── 34107362_30_3AA-.jpg
+│       │   ├── 34107362_45_3AA-.jpg
+│       │   ├── 36338476_-15_3AA.jpg
+│       │   ├── 36338476_-30_3AA.jpg
+│       │   ├── 36338476_-45_3AA.jpg
+│       │   ├── 36338476_0_3AA.jpg
+│       │   ├── 36338476_15_3AA.jpg
+│       │   ├── 36338476_30_3AA.jpg
+│       │   ├── 36338476_45_3AA.jpg
+│       │   ├── 39008723_-15_3AA.jpg
+│       │   ├── 39008723_-30_3AA.jpg
+│       │   ├── 39008723_-45_3AA.jpg
+│       │   ├── 39008723_0_3AA.jpg
+│       │   ├── 39008723_15_3AA.jpg
+│       │   ├── 39008723_30_3AA.jpg
+│       │   ├── 39008723_45_3AA.jpg
+│       │   ├── 66503199_-15_3AA.jpg
+│       │   ├── 66503199_-30_3AA.jpg
+│       │   ├── 66503199_-45_3AA.jpg
+│       │   ├── 66503199_0_3AA.jpg
+│       │   ├── 66503199_15_3AA.jpg
+│       │   ├── 66503199_30_3AA.jpg
+│       │   ├── 66503199_45_3AA.jpg
+│       │   ├── 67628794_-15_3A-A-.jpg
+│       │   ├── 67628794_-30_3A-A-.jpg
+│       │   ├── 67628794_-45_3A-A-.jpg
+│       │   ├── 67628794_0_3A-A-.jpg
+│       │   ├── 67628794_15_3A-A-.jpg
+│       │   ├── 67628794_30_3A-A-.jpg
+│       │   └── 67628794_45_3A-A-.jpg
+│       └── poor
+│           ├── 32176207_-15_2BB-.jpg
+│           ├── 32176207_-30_2BB-.jpg
+│           ├── 32176207_-45_2BB-.jpg
+│           ├── 32176207_0_2BB-.jpg
+│           ├── 32176207_15_2BB-.jpg
+│           ├── 32176207_30_2BB-.jpg
+│           ├── 32176207_45_2BB-.jpg
+│           ├── 32898300_-15_1B-B-.jpg
+│           ├── 32898300_-30_1B-B-.jpg
+│           ├── 32898300_-45_1B-B-.jpg
+│           ├── 32898300_0_1B-B-.jpg
+│           ├── 32898300_15_1B-B-.jpg
+│           ├── 32898300_30_1B-B-.jpg
+│           ├── 32898300_45_1B-B-.jpg
+│           ├── 35635677_-15_2B-B-.jpg
+│           ├── 35635677_-30_2B-B-.jpg
+│           ├── 35635677_-45_2B-B-.jpg
+│           ├── 35635677_0_2B-B-.jpg
+│           ├── 35635677_15_2B-B-.jpg
+│           ├── 35635677_30_2B-B-.jpg
+│           ├── 35635677_45_2B-B-.jpg
+│           ├── 36933247_-15_1BB.jpg
+│           ├── 36933247_-30_1BB.jpg
+│           ├── 36933247_-45_1BB.jpg
+│           ├── 36933247_0_1BB.jpg
+│           ├── 36933247_15_1BB.jpg
+│           ├── 36933247_30_1BB.jpg
+│           ├── 36933247_45_1BB.jpg
+│           ├── 41019399_-15_1B-B-.jpg
+│           ├── 41019399_-30_1B-B-.jpg
+│           ├── 41019399_-45_1B-B-.jpg
+│           ├── 41019399_0_1B-B-.jpg
+│           ├── 41019399_15_1B-B-.jpg
+│           ├── 41019399_30_1B-B-.jpg
+│           ├── 41019399_45_1B-B-.jpg
+│           ├── 97758912_-15_1BB-.jpg
+│           ├── 97758912_-30_1BB-.jpg
+│           ├── 97758912_-45_1BB-.jpg
+│           ├── 97758912_0_1BB-.jpg
+│           ├── 97758912_15_1BB-.jpg
+│           ├── 97758912_30_1BB-.jpg
+│           └── 97758912_45_1BB-.jpg
+├── Project Presentation
+│   └── Final Presentation - Group 13.pptx
+├── README.md
+├── Report
+│   └── Report.pdf
+├── scripts
+│   ├── Untitled.ipynb
+│   ├── convert.py
+│   ├── process
+│   │   └── process directory.txt
+│   ├── result
+│   │   └── result directory.txt
+│   ├── slim
+│   │   ├── datasets
+│   │   │   ├── __init__.py
+│   │   │   ├── __init__.pyc
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-38.pyc
+│   │   │   │   ├── dataset_factory.cpython-38.pyc
+│   │   │   │   ├── dataset_utils.cpython-38.pyc
+│   │   │   │   └── embryo.cpython-38.pyc
+│   │   │   ├── dataset_factory.py
+│   │   │   ├── dataset_factory.pyc
+│   │   │   ├── dataset_utils.py
+│   │   │   ├── dataset_utils.pyc
+│   │   │   ├── embryo.py
+│   │   │   └── embryo.pyc
+│   │   ├── deployment
+│   │   │   ├── __init__.py
+│   │   │   ├── __init__.pyc
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-38.pyc
+│   │   │   │   └── model_deploy.cpython-38.pyc
+│   │   │   ├── model_deploy.py
+│   │   │   └── model_deploy.pyc
+│   │   ├── nets
+│   │   │   ├── __init__.py
+│   │   │   ├── __init__.pyc
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-38.pyc
+│   │   │   │   ├── alexnet.cpython-38.pyc
+│   │   │   │   ├── cifarnet.cpython-38.pyc
+│   │   │   │   ├── inception.cpython-38.pyc
+│   │   │   │   ├── inception_resnet_v2.cpython-38.pyc
+│   │   │   │   ├── inception_utils.cpython-38.pyc
+│   │   │   │   ├── inception_v1.cpython-38.pyc
+│   │   │   │   ├── inception_v2.cpython-38.pyc
+│   │   │   │   ├── inception_v3.cpython-38.pyc
+│   │   │   │   ├── inception_v4.cpython-38.pyc
+│   │   │   │   ├── lenet.cpython-38.pyc
+│   │   │   │   ├── mobilenet_v1.cpython-38.pyc
+│   │   │   │   ├── nets_factory.cpython-38.pyc
+│   │   │   │   ├── overfeat.cpython-38.pyc
+│   │   │   │   ├── resnet_utils.cpython-38.pyc
+│   │   │   │   ├── resnet_v1.cpython-38.pyc
+│   │   │   │   ├── resnet_v2.cpython-38.pyc
+│   │   │   │   └── vgg.cpython-38.pyc
+│   │   │   ├── alexnet.py
+│   │   │   ├── alexnet.pyc
+│   │   │   ├── cifarnet.py
+│   │   │   ├── cifarnet.pyc
+│   │   │   ├── inception.py
+│   │   │   ├── inception.pyc
+│   │   │   ├── inception_resnet_v2.py
+│   │   │   ├── inception_resnet_v2.pyc
+│   │   │   ├── inception_utils.py
+│   │   │   ├── inception_utils.pyc
+│   │   │   ├── inception_v1.py
+│   │   │   ├── inception_v1.pyc
+│   │   │   ├── inception_v2.py
+│   │   │   ├── inception_v2.pyc
+│   │   │   ├── inception_v3.py
+│   │   │   ├── inception_v3.pyc
+│   │   │   ├── inception_v4.py
+│   │   │   ├── inception_v4.pyc
+│   │   │   ├── lenet.py
+│   │   │   ├── lenet.pyc
+│   │   │   ├── mobilenet_v1.py
+│   │   │   ├── mobilenet_v1.pyc
+│   │   │   ├── nets_factory.py
+│   │   │   ├── nets_factory.pyc
+│   │   │   ├── overfeat.py
+│   │   │   ├── overfeat.pyc
+│   │   │   ├── resnet_utils.py
+│   │   │   ├── resnet_utils.pyc
+│   │   │   ├── resnet_v1.py
+│   │   │   ├── resnet_v1.pyc
+│   │   │   ├── resnet_v2.py
+│   │   │   ├── resnet_v2.pyc
+│   │   │   ├── vgg.py
+│   │   │   └── vgg.pyc
+│   │   ├── predict.py
+│   │   ├── preprocessing
+│   │   │   ├── __init__.py
+│   │   │   ├── __init__.pyc
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-38.pyc
+│   │   │   │   ├── cifarnet_preprocessing.cpython-38.pyc
+│   │   │   │   ├── inception_preprocessing.cpython-38.pyc
+│   │   │   │   ├── lenet_preprocessing.cpython-38.pyc
+│   │   │   │   ├── preprocessing_factory.cpython-38.pyc
+│   │   │   │   └── vgg_preprocessing.cpython-38.pyc
+│   │   │   ├── cifarnet_preprocessing.py
+│   │   │   ├── cifarnet_preprocessing.pyc
+│   │   │   ├── inception_preprocessing.py
+│   │   │   ├── inception_preprocessing.pyc
+│   │   │   ├── lenet_preprocessing.py
+│   │   │   ├── lenet_preprocessing.pyc
+│   │   │   ├── preprocessing_factory.py
+│   │   │   ├── preprocessing_factory.pyc
+│   │   │   ├── vgg_preprocessing.py
+│   │   │   └── vgg_preprocessing.pyc
+│   │   ├── run
+│   │   │   ├── checkpoint
+│   │   │   │   └── inception_v1.ckpt
+│   │   │   └── load_inception_v1.sh
+│   │   └── train_image_classifier.py
+│   ├── untitled
+│   └── utils.py
+└── useful
+    ├── acc.py
+    ├── copy.py
+    ├── output.txt
+    ├── rename.py
+    └── rewrite.py
+
+rm -rf env  # or rm -rf myenv, depending on what you tried
