@@ -36,7 +36,7 @@ def predict_image_route():
 
         try:
             print("Before calling predict_image_label in route") # ADDED PRINT for debugging
-            prediction = pred.predict_image_label(TRAINED_MODEL_DIR, filename, ARCHITECTURE) # Call function from predict.py
+            prediction = pred.predict_image_label(TRAINED_MODEL_DIR, "../../Images/test/good_23765483_-15_3AA.jpg", ARCHITECTURE) # Call function from predict.py
             print("After calling predict_image_label in route, prediction:", prediction) # ADDED PRINT for debugging
             return render_template('result.html', prediction=prediction, image_path=filename)
 
